@@ -6,7 +6,7 @@
 
 terraform {
     backend "azurerm" {
-        resource_group_name     =   "Jenkins"
+        resource_group_name     =   "remote-state"
         storage_account_name    =   "terraformstate4"
         container_name          =   "tfremote"
         key                     =   "terraform.tfstate"
